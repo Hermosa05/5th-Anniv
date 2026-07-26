@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 5th Anniversary ❤️]</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="lockScreen">
+
+    <div class="lock-box">
+
+
+        <p>
+            This surprise is only for the love of my life.
+        </p>
+
+        <input
+            type="password"
+            id="passcode"
+            placeholder="Enter our passcode">
+
+        <button onclick="unlockWebsite()">
+            Unlock ❤️
+        </button>
+
+        <p id="error"></p>
+
+    </div>
+
+</div>
+
+<div id="websiteContent" style="display:none;">
+
+<div id="stars"></div>
+
+<nav>
+    <div class="logo">❤️ Our Story</div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#letter">Letter</a></li>
+    </ul>
+</nav>
+
+<section id="home" class="hero">
+
+    <h1>Happy 5th Anniversary ❤️</h1>
+
+    <h2>Five Years, Countless Memories.</h2>
+
+
+    <button id="startBtn">
+        Begin Our Journey
+    </button>
+
+</section>
+
+<section id="gallery">
+
+    <section id="gallery">
+
+    <h2>📸 Our Beautiful Memories</h2>
+
+    <div class="slider">
+
+        <span style="--i:1">
+            <img src="images/photo1.jpg" alt="">
+        </span>
+
+        <span style="--i:2">
+            <img src="images/photo2.jpg" alt="">
+        </span>
+
+        <span style="--i:3">
+            <img src="images/photo3.jpg" alt="">
+        </span>
+
+        <span style="--i:4">
+            <img src="images/photo4.jpg" alt="">
+        </span>
+
+        <span style="--i:5">
+            <img src="images/photo5.jpg" alt="">
+        </span>
+
+        <span style="--i:6">
+            <img src="images/photo6.jpg" alt="">
+        </span>
+
+        <span style="--i:7">
+            <img src="images/photo7.jpg" alt="">
+        </span>
+
+        <span style="--i:8">
+            <img src="images/photo8.jpg" alt="">
+        </span>
+
+         <span style="--i:9">
+            <img src="images/photo9.jpg" alt="">
+        </span>
+
+         <span style="--i:10">
+            <img src="images/photo10.jpg" alt="">
+        </span>
+
+         <span style="--i:11">
+            <img src="images/photo11.jpg" alt="">
+        </span>
+
+    </section>
+
+    
+
+
+   <section>
+    <div id="memoryMessage" class="memory-message">
+    <h3>❤️ Our Memory</h3>
+    <p>Click a photo to reveal our special memory.</p>
+</div>
+
+</section>
+<section id="letter">
+
+    <div class="letter-container">
+
+        <h2>💌 A Letter For You</h2>
+
+        <div class="letter-card">
+
+            <p class="letter-text">
+
+                My Love,
+
+                <br><br>
+
+                Today marks five amazing years together.
+
+Five years filled with love, laughter, adventures, challenges, and countless memories that I will treasure forever. 
+Through every smile, every challenge, and every moment we shared, 
+you have been my greatest blessing. Thank you for always standing beside me, believing in me, 
+and loving me even on the days when I wasn't at my best.
+
+                <br><br>
+
+               
+Every laugh we shared became one of my favourite memories. Every adventure with you became a story worth remembering. 
+And every hug reminds me that I am home. In your arms, I find peace, comfort, and a love that no place in the world could ever replace.
+        
+                <br><br>
+               If I could go back in time and choose all over again, I would still choose you—every single time. Thank you for making these past five years the happiest years of my life. 
+               I can't wait to create even more beautiful memories with you in the years to come.
+                
+
+                <br><br>
+
+                Happy 5th Anniversary, my love. I love you today, tomorrow, and always.
+                <br><br>
+
+                I love you, forever.
+
+                ❤️
+
+                <br><br>
+
+                <strong>— Leif</strong>
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- Image Popup -->
+
+<div class="popup" id="popup">
+
+    <span id="closeBtn">&times;</span>
+
+    <img id="popupImg">
+
+    <p id="popupText"></p>
+
+</div>
+
+<audio id="bgMusic" loop>
+    <source src="music/song.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicBtn" class="music-btn">
+    🎵
+</button>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
